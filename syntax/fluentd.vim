@@ -11,4 +11,4 @@ syn keyword FluentdSection source parse label match buffer format
 
 hi link FluentdSection Label
 
-let b:current_syntax = "fluent"
+let b:current_syntax = "fluentd"
