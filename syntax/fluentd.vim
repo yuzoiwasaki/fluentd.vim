@@ -7,7 +7,7 @@ if exists("b:current_syntax")
   finish
 endif
 
-syn keyword FluentdSection source parse label match buffer format contained
+syn keyword FluentdSection source parse label match buffer format
 
 hi link FluentdSection Label
 
