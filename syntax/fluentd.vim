@@ -19,7 +19,7 @@ syn keyword CommonPluginParameter s3_bucket s3_region s3_object_key_format store
 syn keyword CommonPluginParameter timekey timekey_wait include_time_key
 
 hi link FluentdComment Comment
-hi link FluentdDirective Label
-hi link CommonPluginParameter Keyword
+hi link FluentdDirective Define
+hi link CommonPluginParameter String
 
 let b:current_syntax = "fluentd"
